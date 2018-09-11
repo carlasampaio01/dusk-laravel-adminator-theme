@@ -1,0 +1,29 @@
+{
+    "name": "ijpatricio/laravel-adminator-theme",
+    "description": "Adminator theme as a Laravel Package",
+    "authors": [
+        {
+            "name": "Joao Patricio",
+            "email": "ijpatricio@gmail.com"
+        },
+        {
+            "name": "Carla Sampaio",
+            "email": "carlamsampaio01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ijpatricio\\Adminator\\Providers\\AdminatorServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ijpatricio\\Adminator\\": "src/"
+        }
+    }
+}

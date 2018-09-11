@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "698b9ea1e109b1d26de9efbe77a0ec2f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -365,6 +365,41 @@
                 "trusted proxy"
             ],
             "time": "2018-02-07T20:20:57+00:00"
+        },
+        {
+            "name": "ijpatricio/laravel-adminator-theme",
+            "version": "dev-develop",
+            "dist": {
+                "type": "path",
+                "url": "./packages/laravel-adminator-theme",
+                "reference": "cdb00ca3b6622614628a7de80e4fd268a3258b9c",
+                "shasum": null
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ijpatricio\\Adminator\\Providers\\AdminatorServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ijpatricio\\Adminator\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Joao Patricio",
+                    "email": "ijpatricio@gmail.com"
+                },
+                {
+                    "name": "Carla Sampaio",
+                    "email": "carlamsampaio01@gmail.com"
+                }
+            ],
+            "description": "Adminator theme as a Laravel Package"
         },
         {
             "name": "jakub-onderka/php-console-color",
